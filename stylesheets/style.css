@@ -1,0 +1,407 @@
+/* line 5, ../../../../.rvm/gems/ruby-1.9.3-p545/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../.rvm/gems/ruby-1.9.3-p545/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../.rvm/gems/ruby-1.9.3-p545/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../.rvm/gems/ruby-1.9.3-p545/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../.rvm/gems/ruby-1.9.3-p545/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../.rvm/gems/ruby-1.9.3-p545/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../.rvm/gems/ruby-1.9.3-p545/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../.rvm/gems/ruby-1.9.3-p545/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../.rvm/gems/ruby-1.9.3-p545/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 4, ../sass/style.scss */
+body {
+  font-size: 62.5%;
+}
+.header-background{
+  width: 100%;
+  height: 700px;
+  margin:0 auto;
+  background: url(../images/sunset-resized.jpg);
+  background-position: 40% 15%;
+  opacity: 0.9;
+}
+
+.par ul li{
+  margin-top: 30px;
+}
+
+
+.par ul li:nth-child(1) {
+  margin-left: 100px;
+  float: left;
+  font-size: 35px;
+  color:#fff;
+}
+
+.par ul li:nth-child(4) {
+  margin-right: 50px;
+  float: right;
+  font-size: 15px;
+  color:#fff;
+}
+
+.par ul li:nth-child(3) {
+  margin-right: 50px;
+  float: right;
+  font-size: 15px;
+  color:#fff;
+  cursor: pointer;
+}
+
+.par ul li:nth-child(2) {
+  border: 1px solid white;
+  float: right;
+  width: 80px;
+  height: 20px;
+  text-align: center;
+  padding: 10px 0 0 0;
+  margin-top: 20px;
+  margin-right: 100px;
+  font-size: 15px;
+  color:#fff;
+  cursor: pointer;
+}
+.part{
+  padding-top: 200px;
+  line-height: 2;
+}
+.part h1{
+  font-size: 35px;
+  color:#647c5a;
+  font-weight: bold;
+}
+.part p{
+  font-size: 15px;
+  color:#8f4254;
+}
+
+.an{
+  width: 850px;
+  margin: 0 auto;
+  padding-top: 80px;
+}
+.an input{
+  margin-top: 10px;
+  margin-left: 100px;
+  width: 450px;
+  height: 35px;
+  font-size: 12px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  border: none;
+  opacity: 0.5;
+}
+.btn2{
+  position: absolute;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 120px;
+  height: 38px;
+  border: none;
+  color: #fff;
+  background: #6da;
+  cursor: pointer;
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.middle {
+  border: 1px solid #CCC;
+  width: 100%;
+  height: 1800px;
+  background-color: white;
+  margin: 0 auto;
+}
+.middle .num {
+/*  overflow: hidden;*/
+  width: 1008px;
+  margin: 0 auto;
+  border: 1px solid #aaa;
+  border-radius: 10px;
+  top: -60px;
+  position: relative;
+  background: #fff;
+  height: 130px;
+}
+.middle .num li {
+  width: 250px;
+  float: left;
+  text-align: center;
+  border-right:2px solid #CCC;
+  height: 130px;
+}
+/* line 129, ../sass/style.scss */
+.middle .num li .number {
+  font-size: 18px;
+  margin-top: 40px;
+  font-weight: bold;
+}
+/* line 135, ../sass/style.scss */
+.middle .num li .item {
+  font-size: 15px;
+  margin-top: 18px;
+  color: #CCC;
+}
+.middle .how {
+  width: 85%;
+  height:500px;
+  margin: 0 auto;
+}
+.middle .how h2 {
+  font-weight: bolder;
+  font-size: 20px;
+  margin: 50px;
+}
+.middle .how .how_content {
+  position: relative;
+  top: -20px;
+  overflow: hidden;
+  padding-bottom: 100px;
+  border-bottom: 1px solid #ccc;
+}
+.middle .how .how_content .item {
+  float: left;
+  width: 29%;
+  margin: 0 20px;
+}
+.middle .how .how_content .item .icon {
+  border: 1px solid #ccc;
+  border-radius: 100%;
+  width: 35px;
+  height: 35px;
+  background: #f5f3f1;
+  margin: 0 auto;
+}
+.middle .how .how_content .item img {
+  display: inline-block;
+  margin: 20px 115px 40px;
+  height: 75px;
+  width: 75px;
+}
+.middle .how .how_content .item h3{
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+  line-height: 2.5;
+}
+.middle .how .how_content .item p {
+  font-size: 16px;
+  text-align: center;
+  line-height: 1.5;
+}
+.middle .why {
+  width: 85%;
+  height: 500px;
+  margin: 0 auto;
+  margin-top: 10px;
+  border-bottom: 1px solid #CCC;
+  padding-bottom: 10px;
+}
+.middle .why h2{
+  font-size: 20px;
+  font-weight: bold;
+  margin: 50px;
+}
+.middle .why .item{
+  width: 50%;
+  height: 130px;
+  float: left;
+}
+.middle .why .item img{
+  margin-top: 10px;
+  position: absolute;
+  margin-left: 15px;
+}
+.middle .why .item .text{
+  margin-left: 70px;
+  margin-top: 20px;
+  font-size: 13px;
+}
+.middle .why .item .text h3{
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 15px;
+  padding-bottom: 10px;
+}
+.middle .why .item .text p{
+  padding-right: 80px;
+}
+.middle .test{
+  width: 85%;
+  height: 300px;
+  margin: 0 auto;
+  background-color: white;
+}
+.middle .test .anniu{
+  width: 50%;
+  height: 35px;
+  margin: 0 325px;
+  margin-top: 90px;
+}
+.middle .test .btn3{
+  text-align: center;
+  background-color: #2f2f2f;
+  width:250px;
+  height: 55px;
+  font-size: 15px;
+  color: #fff;
+  float:left;
+}
+.middle .test .btn4{
+  text-align: center;
+  background-color: #fff;
+  width: 250px;
+  height: 55px;
+  font-size: 15px;
+  color: #000;
+  float:left;
+}
+
+.middle .test .mao{
+  margin-top: 80px;
+}
+
+.middle .test .mao p{
+  font-size: 80px;
+  line-height: 0.8em;
+  color: #D6D6D6;
+}
+
+
+.middle .test p{
+  width: 70%;
+  height: 100px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.middle .test .picture {
+  width: 400px;
+  height: 60px;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-left: 355px;
+}
+.middle .test .picture img{
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  float: left;
+  margin-left: 50px;
+  -webkit-filter: grayscale(1);
+  opacity: 0.5;
+}
+
+.footer-background{
+  width:100%;
+  height: 200px;
+  margin:0 auto;
+  background: url(../images/sunset-resized.jpg);
+  background-position: 80% 48%;
+  opacity: 0.9;
+}
+.footer-background .in{
+  width: 850px;
+  margin: 0 auto;
+  padding-top: 80px;
+}
+.footer-background .in span{
+  font-size: 20px;
+  color: white;
+  margin-right: 10px;
+}
+.footer-background .in input{
+  margin-top: 10px;
+  width: 450px;
+  height: 35px;
+  font-size: 12px;
+  font-color: #fff;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  border: none;
+}
+.footer-background .in .btn5{
+  position: absolute;
+  margin-top: 10px;
+  width: 120px;
+  height: 38px;
+  border: none;
+  color: #fff;
+  background: #6da;
+  cursor: pointer;
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
+}
+.footer-nav{
+  width: 100%;
+  height: 50px;
+  margin:0 auto;
+  background-color:#fff;
+}
+.footer-nav ul{
+  padding-top: 20px;
+  padding-left: 100px;
+}
+.footer-nav ul li{
+  float:left;
+  margin-left: 25px;
+  font-size: 15px;
+  color:#abc;
+}
